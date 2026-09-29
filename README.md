@@ -1,5 +1,6 @@
 </div>
-【<a href='https://arxiv.org/abs/2602.03317' target='_blank'>Multiparameter Uncertainty Mapping in Quantitative Molecular MRI using a Physics-Structured Variational Autoencoder (PS-VAE) 】
+(https://arxiv.org/abs/2602.03317)
+ <div>
 【<a href='https://github.com/falex-aimri' target='_blank'>Alex Finkelstein </a> |
 <a href='https://github.com/operlman' target='_blank'>Or Perlman </a>】
 <div>
