@@ -9,7 +9,7 @@
 
 # Physics-Structured Variational AutoEncoder (PS-VAE)
 
-This repository is an extension of [Neural Bloch-McConnell Fitting](https://github.com/momentum-laboratory/neural-fitting) towards rapid and rigorous Bayesian posterior modeling in quantitative molecular MRI, via the technique coined in the title.
+This repository is an extension of [Neural Bloch-McConnell Fitting](https://github.com/momentum-laboratory/neural-fitting) towards rapid and rigorous Bayesian posterior modeling in quantitative molecular MRI, via the technique coined in the title.  The results are reported in the paper [Multiparameter Uncertainty Mapping in Quantitative Molecular MRI using a Physics-Structured Variational Autoencoder (PS-VAE)](https://arxiv.org/abs/2602.03317) available on Arxiv and accepted to IEEE Transactions on Medical Imaging (in-press).
 
 ## ⚡ Getting Started
 
