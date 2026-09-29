@@ -1,0 +1,29 @@
+# Data folders
+data/*.nc
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Log files
+*.log
+*.out
+*.err
+
+# Checkpoint and results folders
+ckpts/
+figs/
+BCK/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
