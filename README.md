@@ -93,6 +93,6 @@ We believe in openly sharing information, data, code, and ideas between research
 ## 📑 References
 If you use this code for research or software development, please reference the following publication:
 ``` # TO CHANGE
-Finkelstein, Alex, Ron Moneta, Or Zohar, Michal Rivlin, Moritz Zaiss, Shelly Gur Zeldich, Dafna Ben Bashat, Dinorah Friedmann-Morvinski, and Or Perlman. "Multiparameter Uncertainty Mapping in Quantitative Molecular MRI using a Physics-Structured Variational Autoencoder (PS-VAE)." IEEE Transactions on Medical Imaging, 2026. https://doi.org/10.1109/TMI.2026.3740952‏
+Finkelstein, Alex, Ron Moneta, Or Zohar, Michal Rivlin, Moritz Zaiss, Shelly Gur Zeldich, Dafna Ben Bashat, Dinorah Friedmann-Morvinski, and Or Perlman. "Multiparameter Uncertainty Mapping in Quantitative Molecular MRI using a Physics-Structured Variational Autoencoder (PS-VAE)." IEEE Transactions on Medical Imaging, 2026. https://doi.org/10.1109/TMI.2026.3740952. ‏
 ```
 
