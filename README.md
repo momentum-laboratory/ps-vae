@@ -9,7 +9,7 @@
 
 # Physics-Structured Variational AutoEncoder (PS-VAE)
 
-This repository is an extension of [Neural Bloch-McConnell Fitting](https://github.com/momentum-laboratory/neural-fitting) towards rapid and rigorous Bayesian posterior modeling in quantitative molecular MRI, via the technique coined in the title.  The methods and results (using scans at 3T, 7T, 9.4T of phantom, mice, healthy-humans, cancer/AD patients) are reported in the paper [Multiparameter Uncertainty Mapping in Quantitative Molecular MRI using a Physics-Structured Variational Autoencoder (PS-VAE)](https://arxiv.org/abs/2602.03317) available on Arxiv and accepted to IEEE Transactions on Medical Imaging (in-press).
+This repository is an extension of [Neural Bloch-McConnell Fitting](https://github.com/momentum-laboratory/neural-fitting) towards rapid and rigorous Bayesian posterior modeling in quantitative molecular MRI, via the technique coined in the title.  The methods and results (using scans at 3T, 7T, 9.4T of phantom, mice, healthy-humans, cancer/AD patients) are reported in the paper [Multiparameter Uncertainty Mapping in Quantitative Molecular MRI using a Physics-Structured Variational Autoencoder (PS-VAE)](https://arxiv.org/abs/2602.03317) available on Arxiv and accepted to IEEE Transactions on Medical Imaging (https://doi.org/10.1109/TMI.2026.3740952).
 
 ## ⚡ Getting Started
 
@@ -68,7 +68,7 @@ Self-supervised training of the two-stage network (semisolid MT, then amide) on 
 ```bash
 python scripts/reproduce_fig3.py
 ```
-For each of the three mice in Fig. 3, trains the network on the mouse's own scan, estimates the tissue parameters with their posterior, and assembles the figure, including the reference posteriors of the two marked voxels per mouse, into `figs/fig3/fig3.{png,svg}`. The result matches the paper up to training stochasticity.
+For each of the three mice in Fig. 3, it trains the network on the mouse's own scan, estimates the tissue parameters with their posterior, and assembles the figure, including the reference posteriors of the two marked voxels per mouse, into `figs/fig3/fig3.{png,svg}`. The result matches the paper up to training stochasticity.
 
 **A4: Simulation study** (`notebooks/simulative.ipynb`).
 Trains on synthetic signals with known ground truth and evaluates accuracy and calibration (coverage) of the posteriors, with optional model misspecification (`do_test_bias`). The hyperparameter sweeps behind the paper's figure are run via `scripts/run_papermill.py` (`run_simulative()`); the figure itself is assembled in `notebooks/revision_figs.ipynb`.
@@ -88,10 +88,11 @@ Figures based on human-subject data (full volunteer volumes and patient scans) c
 Each figure is produced in a cell under a heading of the form `FINAL FIGURE (Fig. N)`, which makes it easy to search for - before tracing back the paper trail (or code-trail:).
 
 ## 🚀 Contributing
-We believe in openly sharing information, data, code and ideas between research groups. Whether you have a question, suggestion or a bug to fix, please let us know. See our group website at: https://mri-ai.github.io/
+We believe in openly sharing information, data, code, and ideas between research groups. Whether you have a question, suggestion or a bug to fix, please let us know. See our group website at: https://mri-ai.github.io/
 
 ## 📑 References
-If you use this code for research or software development please reference the following publication:
+If you use this code for research or software development, please reference the following publication:
 ``` # TO CHANGE
-Finkelstein, Alex, Ron Moneta, Or Zohar, Michal Rivlin, Moritz Zaiss, Dinora Friedmann Morvinski, and Or Perlman. "Multiparameter Uncertainty Mapping in Quantitative Molecular MRI using a Physics-Structured Variational Autoencoder (PS-VAE)." arXiv preprint arXiv:2602.03317 (2026)‏
+Finkelstein, Alex, Ron Moneta, Or Zohar, Michal Rivlin, Moritz Zaiss, Shelly Gur Zeldich, Dafna Ben Bashat, Dinorah Friedmann-Morvinski, and Or Perlman. "Multiparameter Uncertainty Mapping in Quantitative Molecular MRI using a Physics-Structured Variational Autoencoder (PS-VAE)." IEEE Transactions on Medical Imaging, 2026. https://doi.org/10.1109/TMI.2026.3740952‏
 ```
+
